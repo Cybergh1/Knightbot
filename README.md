@@ -104,8 +104,8 @@ It is lightweight and can be easily customized to add more commands as per your 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/mruniquehacker/Knightbot.git
-    cd Knightbot
+    git clone [https://github.com/Cybergh1/Knightbot.git]
+    cd Cyberbot
     ```
 
 2. **Install the dependencies:**
