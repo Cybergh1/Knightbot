@@ -4,7 +4,7 @@ const fs = require('fs');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.Cyberbot || 'WhatsApp Bot'}*  
+   *🤖 ${settings.botname || 'Cyberbot'}*  
    Version: *${settings.version || '1.0.1'}*
    by ${settings.botOwner || 'Cyber'}
    YT : ${ytch}
