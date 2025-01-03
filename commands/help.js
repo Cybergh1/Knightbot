@@ -5,9 +5,9 @@ async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
    *🤖 ${settings.botname || 'Cyberbot'}*  
-   Version: *${settings.version || '1.0.1'}*
+   Version: *${settings.version || '1.0.2'}*
    by ${settings.botOwner || 'Cyber'}
-   YT : ${ytch}
+   Cyber : ${Cyber}
 ╚═══════════════════╝
 
 *Available Commands:*
@@ -76,7 +76,7 @@ async function helpCommand(sock, chatId, channelLink) {
 
 ${channelLink ? `🔗 *Join our Channel:* \n${channelLink}` : 'https://whatsapp.com/channel/0029Vb25ZsbBKfi1Y4DBRa1Z'}
 
-@${settings.botName || 'Cyberbot'} 2024 v${settings.version || '1.0.1'}
+@${settings.botName || 'Cyberbot'} 2025 v${settings.version || '1.0.2'}
 `;
 
     try {
