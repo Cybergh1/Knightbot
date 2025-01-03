@@ -1,8 +1,7 @@
-const settings = {
-  packname: 'My Sticker Pack',
+packname: 'My Sticker Pack',
   author: 'My Bot',
   botName: "Cyberbot",
-  botOwner: 'Professor', // Your name
+  botOwner: 'Cyber', // Your name
   ownerNumber: '508591189', //Your number
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
