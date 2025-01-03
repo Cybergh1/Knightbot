@@ -3,9 +3,9 @@ const settings = require('../settings');
 async function ownerCommand(sock, chatId) {
     const vcard = `
 BEGIN:VCARD
-VERSION:3.0
+VERSION:1.0.4
 FN:${settings.botOwner}
-TEL;waid=${settings.ownerNumber}:${settings.ownerNumber}
+TEL;waid=${settings.233508591189}:${settings.233508591189}
 END:VCARD
 `;
 
