@@ -4,9 +4,9 @@ const fs = require('fs');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'WhatsApp Bot'}*  
-   Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Unknown Owner'}
+   *🤖 ${settings.Cyberbot || 'WhatsApp Bot'}*  
+   Version: *${settings.version || '1.0.1'}*
+   by ${settings.botOwner || 'Cyber'}
    YT : ${ytch}
 ╚═══════════════════╝
 
@@ -74,9 +74,9 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .topmembers
 ╚═══════════════════╝
 
-${channelLink ? `🔗 *Join our Channel:* \n${channelLink}` : 'No channel link available'}
+${channelLink ? `🔗 *Join our Channel:* \n${channelLink}` : 'https://whatsapp.com/channel/0029Vb25ZsbBKfi1Y4DBRa1Z'}
 
-@${settings.botName || 'KnightBot'} 2024 v${settings.version || '1.0.0'}
+@${settings.botName || 'Cyberbot'} 2024 v${settings.version || '1.0.1'}
 `;
 
     try {
